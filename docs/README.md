@@ -7,12 +7,14 @@ repository-name: eYY-4yp-project-template
 title:
 ---
 
-# 3D Occpuancy Prediction for End-to-End Autonomous Driving
+[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
+
+# Project Title
 
 #### Team
 
 {% for member in site.data.index.team %}
-- member.eNumber, member.Name, [member.email](mailto:{{ member.email }})
+- {{ member.eNumber }}, {{ member.name }}, [{{ member.email }}](mailto:{{ member.email }})
 {% endfor %}
 
 #### Supervisors
