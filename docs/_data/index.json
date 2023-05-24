@@ -1,0 +1,25 @@
+{
+    "team": [
+        {
+            "name": "SILVA H.S.C.",
+            "email": "e17331@eng.pdn.ac.lk",
+            "eNumber": "E/17/331"
+        },
+        {
+            "name": "WANNIGAMA S.B.",
+            "email": "e17369@eng.pdn.ac.lk",
+            "eNumber": "E/17/369"
+        }
+    ],
+    "supervisors": [
+        {
+            "name": "Prof. Roshan Ragel",
+            "email": "roshanr@eng.pdn.ac.lk"
+        },
+        {
+            "name": "Gihan Jayatilake",
+            "email": "gihan@umd.edu"
+        }
+    ],
+    "tags": ["Final Year Project", "Computer Vision", "Autonomous Driving"]
+}

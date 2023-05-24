@@ -7,8 +7,6 @@ repository-name: eYY-4yp-project-template
 title:
 ---
 
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
-
 # Project Title
 
 #### Team
