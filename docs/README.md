@@ -42,7 +42,7 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 - **[Apr 27th, 2023]** Literature review started (reading the papers [Attention is All you Need](https://arxiv.org/abs/1706.03762), [NEAT](https://arxiv.org/abs/2109.04456) and [TCP](https://arxiv.org/abs/2206.08129)).
 - **[May 12th, 2023]** First meeting with the supervisors, pitching the ideas.
 - **[Week starting on May 14th, 2023]** Started reading [BEVFormer](https://arxiv.org/abs/2203.17270), [TPVFormer](https://github.com/wzzheng/TPVFormer), [SurroundOcc](https://arxiv.org/abs/2303.09551), [OccFormer](https://arxiv.org/abs/2304.05316), and other related papers/articles about vision-centric 3D Occupancy prediction for autonomous driving.
-- **[Week starting on May 21st, 2023]** Downloading the [nuScenes](https://www.nuscenes.org/nuscenes/) dataset to the department server. 💡New idea popped out, added to the [doc](https://docs.google.com/document/d/1Q0V5T9e5vz9v4gMgqhBe68V2NfEGpRri8H5HDJT0jig/edit?usp=sharing). Getting familar with [mmcv](https://mmengine.readthedocs.io/en/latest/tutorials/runner.html). **_"Understand the runner class, then you will understand everything."_** ~gihan jayatilake
+- **[Week starting on May 21st, 2023]** Downloading the [nuScenes](https://www.nuscenes.org/nuscenes/) dataset to the department server. 💡New idea popped out, added to the [doc](https://docs.google.com/document/d/1Q0V5T9e5vz9v4gMgqhBe68V2NfEGpRri8H5HDJT0jig/edit?usp=sharing). Getting familar with [mmcv](https://mmengine.readthedocs.io/en/latest/tutorials/runner.html). **_"Understand the runner class, then you will understand everything."_** ~gihan jayatilake <br>Ran a training loop of the TPVFormer with the 3D Occupancy head.
 
 ---
 
