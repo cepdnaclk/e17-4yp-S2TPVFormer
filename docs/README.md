@@ -54,10 +54,10 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 - [Paper Summaries](https://drive.google.com/drive/folders/1MJF-aodwWPemzLQnnnE4CN6oSKosoytd?usp=sharing)
 
 
-### Other Links
+<!-- ### Other Links
 - [Project Page](https://url.ce.pdn.ac.lk/e17-4yp-3D-Occ-for-AD)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
+- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/) -->
 
 
 
