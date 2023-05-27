@@ -52,7 +52,7 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 - [IDEAs💡](https://docs.google.com/document/d/1Q0V5T9e5vz9v4gMgqhBe68V2NfEGpRri8H5HDJT0jig/edit?usp=sharing)
 - [Literature Review Summary](https://docs.google.com/spreadsheets/d/1t0dZtdaSt9DUCvQl5zDW9iCib0_WepOSmF6MImoRdKg/edit?usp=sharing)
 - [Paper Summaries](https://drive.google.com/drive/folders/1MJF-aodwWPemzLQnnnE4CN6oSKosoytd?usp=sharing)
-
+- [Jamboard](https://jamboard.google.com/d/11U-PCR4-SQXJWzTMW90iI3Ad9wVkUIkfwcz_y7w39Ts/viewer?pli=1&f=2)
 
 <!-- ### Other Links
 - [Project Page](https://url.ce.pdn.ac.lk/e17-4yp-3D-Occ-for-AD)
