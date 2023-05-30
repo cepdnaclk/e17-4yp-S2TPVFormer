@@ -33,6 +33,7 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 - [Deep Understanding Tesla FSD Part 2: Vector Space](https://saneryee-studio.medium.com/deep-understanding-tesla-fsd-part-2-vector-space-2964bfc10b17)
 - [Andrej Karpathy's Interpretation of Transformer: Communicate Phase & Compute Phase](https://youtu.be/XfpMkf4rD6E?t=1353)
 - [DeepSORT: Deep Learning to Track Custom Objects in a Video](https://nanonets.com/blog/object-tracking-deepsort/)
+- [Open-MMLab repos](https://github.com/open-mmlab/mmengine)
 
 
 ### Timeline
