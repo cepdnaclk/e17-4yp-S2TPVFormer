@@ -34,6 +34,7 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 - [Andrej Karpathy's Interpretation of Transformer: Communicate Phase & Compute Phase](https://youtu.be/XfpMkf4rD6E?t=1353)
 - [DeepSORT: Deep Learning to Track Custom Objects in a Video](https://nanonets.com/blog/object-tracking-deepsort/)
 - [Open-MMLab repos](https://github.com/open-mmlab/mmengine)
+- [What are Intrinsic and Extrinsic Camera Parameters in Computer Vision?](https://towardsdatascience.com/what-are-intrinsic-and-extrinsic-camera-parameters-in-computer-vision-7071b72fb8ec)
 
 
 ### Timeline
