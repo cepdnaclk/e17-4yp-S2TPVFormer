@@ -12,7 +12,7 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 ### Supervisors
 
 - Prof. Roshan Ragel - [roshanr@eng.pdn.ac.lk](mailto:roshanr@eng.pdn.ac.lk)
-- Gihan Jayatilake - [gihan@umd.edu](mailto:gihan@umd.edu)
+- Gihan Jayatilaka - [email](https://www.cs.umd.edu/~gihan/contact/)
 
 ### External Links
 
