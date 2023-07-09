@@ -38,6 +38,7 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 - [Vision-centric Semantic Occupancy Prediction for Autonomous Driving](https://towardsdatascience.com/vision-centric-semantic-occupancy-prediction-for-autonomous-driving-16a46dbd6f65)
 - [What is Gradient Accumulation in Deep Learning?](https://towardsdatascience.com/what-is-gradient-accumulation-in-deep-learning-ec034122cfa)
 - [Master the overall construction process of MMDetection](https://zhuanlan.zhihu.com/p/341954021)
+- [Awesome-Occupancy-Prediction-Multi-Cameras](https://github.com/chaytonmin/Awesome-Surrounding-Semantic-Occupancy-Prediction)
 
 
 ### Timeline
