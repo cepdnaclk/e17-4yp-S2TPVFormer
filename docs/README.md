@@ -55,6 +55,8 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 
 - [Project Repository (public)](https://github.com/cepdnaclk/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving)
 - [Project Repository (private)](https://github.com/autonomousperception/S2TPVFormer)
+- [UMD logs (private)](https://github.com/autonomousperception/umd-logs/tree/main)
+- [gihans-repo-copy (private)](https://github.com/autonomousperception/gihans-repo-copy)
 - [Project Diary](https://docs.google.com/document/d/1ws0hRpEfZc4wDm7a-rtydrG4abKDJQv4r4gB88s6gLo/edit?usp=sharing)
 - [Meeting Notes](https://drive.google.com/drive/folders/12DhoAxGAD_xgDAIP6TBwrTsmBXJAfI4c?usp=sharing)
 - [IDEAs💡](https://docs.google.com/document/d/1Q0V5T9e5vz9v4gMgqhBe68V2NfEGpRri8H5HDJT0jig/edit?usp=sharing)
