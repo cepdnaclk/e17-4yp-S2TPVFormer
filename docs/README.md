@@ -71,5 +71,10 @@ In the field of autonomous driving, accurate representation of the 3D space surr
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/) -->
 
+### Important  Links
 
-
+- [Zoom Meetings](https://learn.zoom.us/j/61977437413?pwd=SEdRSHNsQUQ0OGcwakxVNkhlOGt4Zz09)
+- [CVPR 2023 Leaderboard](https://opendrivelab.com/AD23Challenge.html#3d_occupancy_prediction)
+- [CVPR 2023 3D SOP Benchmark](https://github.com/CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction)
+- [Latest & Biggest 3D SOP Benchmark (OpenOcc)](https://github.com/OpenDriveLab/OpenScene)
+- [2024 opendrivelab challenge](https://opendrivelab.com/AD24Challenge.html)
