@@ -27,7 +27,7 @@ To summarize, this work contributes in the following ways,
 
 ## Results
 
-![](docs/assets/results2.png)
+![](assets/results2.png)
 
 ### Team
 
