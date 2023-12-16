@@ -21,7 +21,7 @@ To summarize, this work contributes in the following ways,
 
 ## Results
 
-![](docs/assets/results.png)
+![](docs/assets/results2.png)
 
 ## Related Projects
 
