@@ -17,7 +17,7 @@ This work introduces S2TPVFormer, a variant of [TPVFormer](https://github.com/wz
 This work contributes in the following ways,
 - We pioneer the use of TPV representation for embedding spatiotemporal information in 3D scenes within the domain of vision-centric SOP and the broader 3D perception literature.
 - We introduce a novel temporal fusion workflow for TPV representation, analyzing how CVHA facilitates the sharing of spatiotemporal information across the three planes.
-- The lower parameter model of our method achieves a significant **3.1%** improvement in mIoU for 3D SOP when evaluated on the nuScenes validation dataset with [TPVFormer](https://github.com/wzzheng/tpvformer)’s sparse pseudo-voxel ground truth, compared to TPVFormer.
+- The lower parameter model of our method achieves a significant **3.1%** improvement in mIoU for 3D SOP when evaluated on the [nuScenes](https://www.nuscenes.org/nuscenes/) validation dataset with [TPVFormer](https://github.com/wzzheng/tpvformer)’s sparse pseudo-voxel ground truth, compared to TPVFormer.
 
 ## Related Projects
 
