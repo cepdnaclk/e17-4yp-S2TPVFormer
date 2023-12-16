@@ -23,17 +23,12 @@ This work contributes in the following ways,
 
 Our code is based on [TPVFormer](https://github.com/wzzheng/tpvformer) and [BEVFormer](https://github.com/fundamentalvision/BEVFormer). Many thanks to them!
 
-### Team
+## Team
 
 - E/17/331 - SILVA H.S.C. - [e17331@eng.pdn.ac.lk](mailto:e17331@eng.pdn.ac.lk)
 - E/17/369 - WANNIGAMA S.B. - [e17369@eng.pdn.ac.lk](mailto:e17369@eng.pdn.ac.lk)
 
-### Supervisors
-
-- Prof. Roshan Ragel - [roshanr@eng.pdn.ac.lk](mailto:roshanr@eng.pdn.ac.lk)
-- Gihan Jayatilaka - [email](https://www.cs.umd.edu/~gihan/contact/)
-
-### External Links
+## External Links
 
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [Faculty of Engineering](http://www.eng.pdn.ac.lk/)
