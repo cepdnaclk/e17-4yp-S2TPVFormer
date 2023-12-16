@@ -1,8 +1,27 @@
 ___
-# 3D Occpuancy Prediction for End-to-End Autonomous Driving
+# S2TPVFormer: Improving 3D Semantic Occupancy Prediction using Spatiotemporal Transformers
 ___
 
-In the field of autonomous driving, accurate representation of the 3D space surrounding the vehicle is crucial for various tasks such as prediction, planning, and motion control. While lidar-based approaches have been used for precise 3D object detection, they have limitations in terms of cost and sensitivity to adverse weather conditions. As a result, achieving reliable and accurate 3D perception using only one or multiple RGB images has become the **holy grail** for autonomous driving. Additionally, temporal reasoning, along with spatial reasoning, plays a vital role in autonomous driving models. Therefore, our project aims to combine the strengths of various approaches to **develop a vision-based End-to-End autonomous driving model** that can compete with existing architectures. However, our **primary goal during the FYP is to _focus on 3D occupancy prediction that can enhance downstream driving and vision tasks_**.
+> [Sathira Silva](https://sathiiii.github.io/)*, [Savindu Wannigama](https://savinduwannigama.github.io/)\*, [Prof. Roshan Ragel](https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en) $\dagger$, [Gihan Jayatilaka](https://scholar.google.com/citations?user=ZsJpIO8AAAAJ&hl=en) $\ddagger$
+
+\* Equal contribution $\dagger$ Project Supervisor $\ddagger$ Project Co-supervisor
+
+## Introduction
+
+Temporal reasoning holds equal importance to spatial reasoning in a cognitive perception system. In human perception, temporal information is crucial for identifying occluded objects and determining the motion state of entities. A system proficient in spatiotemporal reasoning excels in making inferences with high temporal coherence. While previous works emphasize the significance of temporal fusion in 3D object detection, earlier attempts at 3D Semantic Occupancy Prediction (3D SOP) often overlooked the value of incorporating temporal information. The current state-of-the-art in 3D SOP literature seldom exploits temporal cues. This is evident in [TPVFormer](https://github.com/wzzheng/tpvformer)’s SOP visualizations, where adjacent prediction frames lack temporal coherence as they rely solely on the current time step for semantic predictions. 
+
+This work introduces S2TPVFormer, a variant of [TPVFormer](https://github.com/wzzheng/tpvformer), which utilizes a spatiotemporal transformer architecture inspired by [BEVFormer](https://github.com/fundamentalvision/BEVFormer), for dense and temporally coherent 3D semantic occupancy prediction. Leveraging TPV (Top View and Voxel) representation, the model’s spatiotemporal encoder generates temporally rich embeddings, fostering coherent predictions. The study proposes a novel Temporal Cross-View Hybrid Attention mechanism, enabling the exchange of spatiotemporal information across different views. To illustrate the efficacy of temporal information incorporation and the potential of the new attention mechanism, the research explores three distinct temporal fusion paradigms.
+
+### Overview of our Contributions
+
+This work contributes in the following ways,
+- We pioneer the use of TPV representation for embedding spatiotemporal information in 3D scenes within the domain of vision-centric SOP and the broader 3D perception literature.
+- We introduce a novel temporal fusion workflow for TPV representation, analyzing how CVHA facilitates the sharing of spatiotemporal information across the three planes.
+- The lower parameter model of our method achieves a significant **3.1%** improvement in mIoU for 3D SOP when evaluated on the nuScenes validation dataset with [TPVFormer](https://github.com/wzzheng/tpvformer)’s sparse pseudo-voxel ground truth, compared to TPVFormer.
+
+## Related Projects
+
+Our code is based on [TPVFormer](https://github.com/wzzheng/tpvformer) and [BEVFormer](https://github.com/fundamentalvision/BEVFormer). Many thanks to them!
 
 ### Team
 
