@@ -6,6 +6,10 @@ ___
 
 \* Equal contribution $\dagger$ Project Supervisor $\ddagger$ Project Co-supervisor
 
+## News
+
+- [04/01/2024]: [Paper (preprint) released in ResearchGate](https://www.researchgate.net/publication/377116622_S2TPVFormer_Spatio-Temporal_Tri-Perspective_View_for_temporally_coherent_3D_Semantic_Occupancy_Prediction)
+
 ## Introduction
 
 Temporal reasoning holds equal importance to spatial reasoning in a cognitive perception system. In human perception, temporal information is crucial for identifying occluded objects and determining the motion state of entities. A system proficient in spatiotemporal reasoning excels in making inferences with high temporal coherence. While previous works emphasize the significance of temporal fusion in 3D object detection, earlier attempts at 3D Semantic Occupancy Prediction (3D SOP) often overlooked the value of incorporating temporal information. The current state-of-the-art in 3D SOP literature seldom exploits temporal cues. This is evident in [TPVFormer](https://github.com/wzzheng/tpvformer)’s SOP visualizations, where adjacent prediction frames lack temporal coherence as they rely solely on the current time step for semantic predictions. 
