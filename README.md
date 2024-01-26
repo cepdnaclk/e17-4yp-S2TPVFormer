@@ -8,6 +8,7 @@ ___
 
 ## News
 
+- [25/01/2024]: [Paper (preprint) released in arxiv](https://arxiv.org/abs/2401.13785)
 - [04/01/2024]: [Paper (preprint) released in ResearchGate](https://www.researchgate.net/publication/377116622_S2TPVFormer_Spatio-Temporal_Tri-Perspective_View_for_temporally_coherent_3D_Semantic_Occupancy_Prediction)
 
 ## Introduction
@@ -41,3 +42,15 @@ Our code is based on [TPVFormer](https://github.com/wzzheng/tpvformer) and [BEVF
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [Faculty of Engineering](http://www.eng.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
+
+## Citation
+
+If this work is helpful for your research, please consider citing:
+```
+@article{silva2024s2tpvformer,
+    title={S2TPVFormer: Spatio-Temporal Tri-Perspective View for temporally coherent 3D Semantic Occupancy Prediction},
+    author={Sathira Silva and Savindu Bhashitha Wannigama and Roshan Ragel and Gihan Jayatilaka},
+    journal={arXiv:2401.13785},
+    year={2024},
+}
+```
