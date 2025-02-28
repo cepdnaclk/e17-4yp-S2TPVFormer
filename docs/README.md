@@ -42,6 +42,8 @@ To summarize, this work contributes in the following ways,
 {% endfor %}
 
 [![Video Title](https://img.youtube.com/vi/AQQQ3sVREaE/0.jpg)](https://www.youtube.com/watch?v=AQQQ3sVREaE)
+[![Watch the video](https://img.youtube.com/vi/AQQQ3sVREaE/0.jpg)](https://www.youtube.com/watch?v=AQQQ3sVREaE)
+
 ---
 
 ### \[⭐Bookmarks\] Related Articles, Blogs
