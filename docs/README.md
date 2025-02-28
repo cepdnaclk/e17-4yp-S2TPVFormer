@@ -41,8 +41,9 @@ To summarize, this work contributes in the following ways,
 - {{ supervisor.name }} - [{{ supervisor.email }}](mailto:{{ supervisor.email }})
 {% endfor %}
 
-[![Video Title](https://img.youtube.com/vi/AQQQ3sVREaE/0.jpg)](https://www.youtube.com/watch?v=AQQQ3sVREaE)
-[![Watch the video](https://img.youtube.com/vi/AQQQ3sVREaE/0.jpg)](https://www.youtube.com/watch?v=AQQQ3sVREaE)
+
+[![TPVFormer](https://img.youtube.com/vi/AQQQ3sVREaE/0.jpg)](https://www.youtube.com/watch?v=AQQQ3sVREaE)
+
 
 ---
 
