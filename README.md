@@ -6,6 +6,8 @@ ___
 
 \* Equal contribution $\dagger$ Project Supervisor $\ddagger$ Project Co-supervisor
 
+### [Paper](https://arxiv.org/abs/2401.13785) | [Poster](https://cepdnaclk.github.io/e17-4yp-S2TPVFormer/assets/AAAI_S2TPVFormer_Poster.pdf)
+
 <img src="docs/assets/visualization.gif" alt="Visualization" width="1000">
 
 ## News
