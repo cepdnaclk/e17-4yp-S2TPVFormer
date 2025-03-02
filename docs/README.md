@@ -6,11 +6,13 @@ repository-name: eYY-4yp-project-template
 title: S2TPVFormer Landing Page
 ---
 
-# S2TPVFormer: Improving 3D Semantic Occupancy Prediction using Spatiotemporal Transformers
+# A Spatiotemporal Approach to Tri-Perspective Representation for 3D Semantic Occupancy Prediction
 
-> [Sathira Silva](https://sathiiii.github.io/)*, [Savindu Wannigama](https://savinduwannigama.github.io/)\*, [Prof. Roshan Ragel](https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en) $\dagger$, [Gihan Jayatilaka](https://scholar.google.com/citations?user=ZsJpIO8AAAAJ&hl=en) $\ddagger$
+> [Sathira Silva](https://scholar.google.com/citations?user=3ZiP8OYAAAAJ&hl=en)*, [Savindu Wannigama](https://scholar.google.com/citations?user=I6kUmVIAAAAJ&hl=en)\*, [Gihan Jayatilaka](https://scholar.google.com/citations?user=ZsJpIO8AAAAJ&hl=en) $\ddagger$, [Muhammad Haris Khan](https://scholar.google.com/citations?user=ZgERfFwAAAAJ&hl=en) $\ddagger$, [Prof. Roshan Ragel](https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en) $\dagger$
 
-\* Equal contribution $\dagger$ Project Supervisor $\ddagger$ Project Co-supervisor
+
+
+\* Equal contribution, $\ddagger$ Project Co-supervisor, $\dagger$ Project Supervisor
 
 ## Abstract
 
