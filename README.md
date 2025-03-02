@@ -6,10 +6,12 @@ ___
 
 \* Equal contribution $\dagger$ Project Supervisor $\ddagger$ Project Co-supervisor
 
-## News
+![](docs/assets/visualization.gif
 
+## News
+- [25/02/2025]: 🏆 Our paper has received the best paper award at ML4AD Workshop 2025!
+- [12/17/2024]: 🚀 Our paper got accepted at [ML4AD](https://ml4ad.github.io/) (AAAI '25) Workshop.
 - [25/01/2024]: [Paper (preprint) released in arxiv](https://arxiv.org/abs/2401.13785)
-- [04/01/2024]: [Paper (preprint) released in ResearchGate](https://www.researchgate.net/publication/377116622_S2TPVFormer_Spatio-Temporal_Tri-Perspective_View_for_temporally_coherent_3D_Semantic_Occupancy_Prediction)
 
 ## Introduction
 
