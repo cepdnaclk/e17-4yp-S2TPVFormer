@@ -35,7 +35,6 @@ To summarize, this work contributes in the following ways,
 
 ## Results
 
-![](assets/results2.png)
 | Method                   | mIoU (%) | Barrier | Bicycle | Bus  | Car  | Const. Veh. | Motorcycle | Pedestrian | Traffic Cone | Trailer | Truck | Drive. Surf. | Other Flat | Sidewalk | Terrain | Manmade | Vegetation |
 |--------------------------|---------|---------|---------|------|------|-------------|------------|------------|--------------|---------|-------|--------------|------------|----------|---------|---------|------------|
 | **TPVFormer**            | **52.0** | **59.6** | **26.3** | **77.6** | **74.1** | **30.9** | **47.5** | **41.8** | **20.2** | **44.9** | **67.8** | **86.3** | **54.5** | **55.5** | **54.6** | **47.5** | **44.0** |
