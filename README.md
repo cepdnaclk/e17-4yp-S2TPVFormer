@@ -12,7 +12,7 @@ ___
 
 ## News
 - [25/02/2025]: 🏆 Our paper received the best paper award at ML4AD Workshop 2025!
-- [12/17/2024]: 🚀 Our paper got accepted at [ML4AD](https://ml4ad.github.io/) (AAAI '25) Workshop.
+- [17/12/2024]: 🚀 Our paper got accepted at [ML4AD](https://ml4ad.github.io/) (AAAI '25) Workshop.
 - [25/01/2024]: [Paper (preprint) released in arxiv](https://arxiv.org/abs/2401.13785)
 
 ## Abstract
