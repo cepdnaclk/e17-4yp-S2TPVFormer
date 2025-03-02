@@ -35,14 +35,19 @@ To summarize, this work contributes in the following ways,
 
 ## Model Configurations
 
-![](assets/table1.jpeg)
+<!-- ![](assets/table1.jpeg) -->
+<img src="assets/table1.jpeg" alt="Table 1" width="350">
+
 
 
 ## Results
 
-![](assets/table2.jpeg)
-![](assets/table3.jpeg)
-![](assets/table4.jpeg)
+<!-- ![](assets/table2.jpeg) -->
+<img src="assets/table2.jpeg" alt="Table 1" width="700">
+<!-- ![](assets/table3.jpeg) -->
+<img src="assets/table3.jpeg" alt="Table 1" width="700">
+<!-- ![](assets/table4.jpeg) -->
+<img src="assets/table4.jpeg" alt="Table 1" width="700">
 
 
 
