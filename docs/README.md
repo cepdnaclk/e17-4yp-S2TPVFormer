@@ -33,21 +33,26 @@ To summarize, this work contributes in the following ways,
 - S2TPVFormer achieves significant improvements in the 3D SOP task on the nuScenes validation set, with a **+4.1%** mIOU gain over the baseline TPVFormer, highlighting that vision-based 3D SOP still has considerable potential for improvement.
 
 
+## Architecture
+
+<img src="assets/architecture.jpeg" alt="Table 1" width="750">
+
+
 ## Model Configurations
 
 <!-- ![](assets/table1.jpeg) -->
-<img src="assets/table1.jpeg" alt="Table 1" width="350">
+<img src="assets/table1.jpeg" alt="Table 1" width="400">
 
 
 
 ## Results
 
 <!-- ![](assets/table2.jpeg) -->
-<img src="assets/table2.jpeg" alt="Table 1" width="700">
+<img src="assets/table2.jpeg" alt="Table 1" width="750">
 <!-- ![](assets/table3.jpeg) -->
-<img src="assets/table3.jpeg" alt="Table 1" width="700">
+<img src="assets/table3.jpeg" alt="Table 1" width="750">
 <!-- ![](assets/table4.jpeg) -->
-<img src="assets/table4.jpeg" alt="Table 1" width="700">
+<img src="assets/table4.jpeg" alt="Table 1" width="750">
 
 
 
