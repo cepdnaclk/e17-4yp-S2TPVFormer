@@ -12,6 +12,10 @@ title: S2TPVFormer Landing Page
 
 \* Equal contribution $\dagger$ Project Supervisor $\ddagger$ Project Co-supervisor
 
+## Abstract
+
+Holistic understanding and reasoning in 3D scenes are crucial for the success of autonomous driving systems. The evolution of 3D semantic occupancy prediction as a pretraining task for autonomous driving and robotic applications captures finer 3D details compared to traditional 3D detection methods. Vision-based 3D semantic occupancy prediction is increasingly overlooked in favor of LiDAR-based approaches, which have shown superior performance in recent years. However, we present compelling evidence that there is still potential for enhancing vision-based methods. Existing approaches predominantly focus on spatial cues such as tri-perspective view (TPV) embeddings, often overlooking temporal cues. This study introduces S2TPVFormer, a spatiotemporal transformer architecture designed to predict temporally coherent 3D semantic occupancy. By introducing temporal cues through a novel Temporal Cross-View Hybrid Attention mechanism (TCVHA), we generate Spatiotemporal TPV (S2TPV) embeddings that enhance the prior process. Experimental evaluations on the nuScenes dataset demonstrate a significant \textbf{$+4.1$\%} of absolute gain in mean Intersection over Union (mIoU) for 3D semantic occupancy compared to baseline TPVFormer, validating the effectiveness of S2TPVFormer in advancing 3D scene perception.
+
 ## Introduction
 
 Temporal reasoning holds equal importance to spatial reasoning in a cognitive perception system. In human perception, temporal information is crucial for identifying occluded objects and determining the motion state of entities. A system proficient in spatiotemporal reasoning excels in making inferences with high temporal coherence. While previous works emphasize the significance of temporal fusion in 3D object detection, earlier attempts at 3D Semantic Occupancy Prediction (3D SOP) often overlooked the value of incorporating temporal information. The current state-of-the-art in 3D SOP literature seldom exploits temporal cues. This is evident in [TPVFormer](https://github.com/wzzheng/tpvformer)’s SOP visualizations, where adjacent prediction frames lack temporal coherence as they rely solely on the current time step for semantic predictions. 
@@ -21,13 +25,49 @@ This work introduces S2TPVFormer, a variant of [TPVFormer](https://github.com/wz
 ### Overview of our Contributions
 
 To summarize, this work contributes in the following ways,
-- We pioneer the use of TPV representation for embedding spatiotemporal information in 3D scenes within the domain of vision-centric SOP and the broader 3D perception literature.
+<!-- - We pioneer the use of TPV representation for embedding spatiotemporal information in 3D scenes within the domain of vision-centric SOP and the broader 3D perception literature.
 - We introduce a novel temporal fusion workflow for TPV representation, analyzing how CVHA facilitates the sharing of spatiotemporal information across the three planes.
-- The lower parameter model of our method achieves a significant **3.1%** improvement in mIoU for 3D SOP when evaluated on the [nuScenes](https://www.nuscenes.org/nuscenes/) validation dataset with [TPVFormer](https://github.com/wzzheng/tpvformer)’s sparse pseudo-voxel ground truth, compared to TPVFormer.
+- The lower parameter model of our method achieves a significant **3.1%** improvement in mIoU for 3D SOP when evaluated on the [nuScenes](https://www.nuscenes.org/nuscenes/) validation dataset with [TPVFormer](https://github.com/wzzheng/tpvformer)’s sparse pseudo-voxel ground truth, compared to TPVFormer. -->
+
+- We introduce S2TPVFormer, featuring a novel temporal fusion workflow for TPV representation, and demonstrate how CVHA facilitates the sharing of spatiotemporal information across the three planes.
+- S2TPVFormer achieves significant improvements in the 3D SOP task on the nuScenes validation set, with a **+4.1%** mIOU gain over the baseline TPVFormer, highlighting that vision-based 3D SOP still has considerable potential for improvement.
+
 
 ## Results
 
 ![](assets/results2.png)
+| Method                   | mIoU (%) | Barrier | Bicycle | Bus  | Car  | Const. Veh. | Motorcycle | Pedestrian | Traffic Cone | Trailer | Truck | Drive. Surf. | Other Flat | Sidewalk | Terrain | Manmade | Vegetation |
+|--------------------------|---------|---------|---------|------|------|-------------|------------|------------|--------------|---------|-------|--------------|------------|----------|---------|---------|------------|
+| **TPVFormer**            | **52.0** | **59.6** | **26.3** | **77.6** | **74.1** | **30.9** | **47.5** | **41.8** | **20.2** | **44.9** | **67.8** | **86.3** | **54.5** | **55.5** | **54.6** | **47.5** | **44.0** |
+| **S2TPVFormer (Base)**   | **56.1** | **60.1** | 16.5 | **85.9** | **74.3** | **42.2** | **51.5** | 37.0 | **21.2** | **49.4** | **74.2** | **86.4** | **56.3** | **57.9** | **55.0** | **65.4** | **65.0** |
+| **S2TPVFormer (Small)**  | 43.4    | 54.3    | 17.2    | 66.0  | 69.5  | 28.2        | 22.8       | 32.1       | 15.1         | 31.7    | 59.6  | 82.4         | 49.9       | 47.8     | 47.4    | 34.9    | 36.0       |
+
+**Table:** *3D Semantic Occupancy Prediction results on the nuScenes validation set. It is fair to compare the results of TPVFormer and S2TPVFormer (Base) as our Base configuration is the same as the configuration TPVFormer has used for 3D SOP.*
+
+
+| Method                   | Input Modality | mIoU (%) | Barrier | Bicycle | Bus  | Car  | Const. Veh. | Motorcycle | Pedestrian | Traffic Cone | Trailer | Truck | Drive. Surf. | Other Flat | Sidewalk | Terrain | Manmade | Vegetation |
+|--------------------------|---------------|---------|---------|---------|------|------|-------------|------------|------------|--------------|---------|-------|--------------|------------|----------|---------|---------|------------|
+| **MINet**               | LiDAR         | 56.3    | 54.6    | 8.2     | 62.1 | 76.6 | 23.0        | 58.7       | 37.6       | 34.9         | 61.5    | 46.9  | 93.3         | 56.4       | 63.8     | 64.8    | 79.3    | 78.3       |
+| **LidarMultiNet**       | LiDAR         | 81.4    | 80.4    | 48.4    | 94.3 | 90.0 | 71.5        | 87.2       | 85.2       | 80.4         | 86.9    | 74.8  | 97.8         | 67.3       | 80.7     | 76.5    | 92.1    | 89.6       |
+| **UniVision**           | LiDAR         | 72.3    | 72.1    | 34.0    | 85.5 | 89.5 | 59.3        | 75.5       | 69.3       | 65.8         | 84.2    | 71.4  | 96.1         | 67.4       | 71.9     | 65.0    | 77.9    | 71.7       |
+| **PanoOcc**             | LiDAR         | 71.4    | 82.5    | 32.3    | 88.1 | 83.7 | 46.1        | 76.5       | 67.6       | 53.6         | 82.9    | 69.5  | 96.0         | 66.3       | 72.3     | 66.3    | 80.5    | 77.3       |
+| **OccFormer**           | LiDAR         | 70.8    | 72.8    | 29.9    | 87.9 | 85.6 | 57.1        | 74.9       | 63.2       | 53.5         | 83.0    | 67.6  | 94.8         | 61.9       | 70.0     | 66.0    | 84.0    | 80.5       |
+| **TPVFormer-Small†**    | Camera        | 59.2    | 65.6    | 15.7    | 75.1 | 80.0 | 45.8        | 43.1       | 44.3       | 26.8         | 72.8    | 55.9  | 92.3         | 53.7       | 61.0     | 59.2    | 79.7    | 75.6       |
+| **TPVFormer-Base†**     | Camera        | 69.4    | 74.0    | 27.5    | 86.3 | 85.5 | 60.7        | 68.0       | 62.1       | 49.1         | 81.9    | 68.4  | 94.1         | 59.5       | 66.5     | 63.5    | 83.8    | 79.9       |
+| **S2TPVFormer (Base)**  | Camera        | 60.4    | 61.2    | 18.2    | 80.6 | 78.1 | 55.2        | 57.6       | 41.5       | 26.4         | 76.1    | 61.3  | 89.8         | 49.4       | 56.6     | 58.0    | 79.3    | 76.4       |
+
+**Table:** *LiDAR Segmentation performance on the nuScenes test set. † represents that TPVFormer-Small and TPVFormer-Base are different from S2TPVFormer (small) and S2TPVFormer (base).*
+
+
+| Method                   | Input Modality | mIoU  | Barrier | Bicycle | Bus  | Car  | Const. Veh. | Motorcycle | Pedestrian | Traffic Cone | Trailer | Truck | Drive. Surf. | Other Flat | Sidewalk | Terrain | Manmade | Vegetation |
+|--------------------------|---------------|-------|---------|---------|------|------|-------------|------------|------------|--------------|---------|-------|--------------|------------|----------|---------|---------|------------|
+| **BEVFormer**           | Camera        | 56.2  | 54.0    | 22.8    | 76.7 | 74.0 | 45.8        | 53.1       | 44.5       | 24.7         | 54.7    | 65.5  | 88.5         | 58.1       | 50.5     | 52.8    | 71.0    | 63.0       |
+| **TPVFormer-Base†**     | Camera        | 68.9  | 70.0    | 40.9    | 93.7 | 85.6 | 49.8        | 68.4       | 59.7       | 38.2         | 65.3    | 83.0  | 93.3         | 64.4       | 64.3     | 64.5    | 81.6    | 79.3       |
+| **TPVFormer-Small†**    | Camera        | 59.3  | 64.9    | 27.0    | 83.0 | 82.8 | 38.3        | 27.4       | 44.9       | 24.0         | 55.4    | 73.6  | 91.7         | 60.7       | 59.8     | 61.1    | 78.2    | 76.5       |
+| **S2TPVFormer (base)**  | Camera        | 61.6  | 62.9    | 25.5    | 87.4 | 81.3 | 51.6        | 64.2       | 45.7       | 22.0         | 57.4    | 77.5  | 89.3         | 50.4       | 56.5     | 58.9    | 78.7    | 76.4       |
+
+**Table:** *LiDAR Segmentation results on the nuScenes validation set. † represents that TPVFormer-Small and TPVFormer-Base are different from S2TPVFormer (small) and S2TPVFormer (base).*
+
 
 ### Team
 

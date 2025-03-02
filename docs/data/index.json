@@ -13,16 +13,16 @@
     ],
     "supervisors": [
         {
-            "name": "Prof. Roshan Ragel",
-            "email": "roshanr@eng.pdn.ac.lk"
-        },
-        {
             "name": "Gihan Jayatilake",
             "email": "gihan@umd.edu"
         },
         {
-            "name": "Geesara Prathap",
-            "email": "ggeesara@gmail.com"
+            "name": "Muhammad Haris Khan",
+            "email": "muhammad.haris@mbzuai.ac.ae"
+        },
+        {
+            "name": "Prof. Roshan Ragel",
+            "email": "roshanr@eng.pdn.ac.lk"
         }
     ],
     "tags": ["Final Year Project", "Computer Vision", "Autonomous Driving"]
