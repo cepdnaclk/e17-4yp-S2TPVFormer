@@ -15,7 +15,7 @@ title: S2TPVFormer Landing Page
 
 ##### [**Paper**](https://arxiv.org/abs/2401.13785)   \|   [**Poster**](assets/AAAI_S2TPVFormer_Poster.pdf)
 
-![Visualization](assets/visualization.gif)
+<img src="assets/visualization.gif" alt="Visualization" width="1000">
 
 ## Abstract
 
