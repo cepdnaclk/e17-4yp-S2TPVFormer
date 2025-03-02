@@ -13,9 +13,10 @@ title: S2TPVFormer Landing Page
 \* Equal contribution, $\ddagger$ Project Co-supervisor, $\dagger$ Project Supervisor
 
 
+<img src="assets/visualization.gif" alt="Visualization" width="1000">
+
 ##### [**Paper**](https://arxiv.org/abs/2401.13785)   \|   [**Poster**](assets/AAAI_S2TPVFormer_Poster.pdf)
 
-<img src="assets/visualization.gif" alt="Visualization" width="1000">
 
 ## Abstract
 
@@ -37,20 +38,20 @@ To summarize, this work contributes in the following ways;
 
 ## Architecture
 
-<img src="assets/architecture.png" alt="Table 1" width="750">
+<img src="assets/architecture.png" alt="Table 1" width="800">
 
 
 ## Model Configurations
 
-<img src="assets/table1.jpeg" alt="Table 1" width="400">
+<img src="assets/table1.jpeg" alt="Table 1" width="450">
 
 
 
 ## Quantitative Results
 
-<img src="assets/table2.jpeg" alt="Table 1" width="750">
-<img src="assets/table3.jpeg" alt="Table 1" width="750">
-<img src="assets/table4.jpeg" alt="Table 1" width="750">
+<img src="assets/table2.jpeg" alt="Table 1" width="800">
+<img src="assets/table3.jpeg" alt="Table 1" width="800">
+<img src="assets/table4.jpeg" alt="Table 1" width="800">
 
 
 ## Qualitative Results
