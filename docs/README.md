@@ -35,7 +35,7 @@ To summarize, this work contributes in the following ways;
 
 ## Architecture
 
-<img src="assets/architecture.jpeg" alt="Table 1" width="750">
+<img src="assets/architecture.png" alt="Table 1" width="750">
 
 
 ## Model Configurations
@@ -44,13 +44,16 @@ To summarize, this work contributes in the following ways;
 
 
 
-## Results
+## Quantitative Results
 
 <img src="assets/table2.jpeg" alt="Table 1" width="750">
 <img src="assets/table3.jpeg" alt="Table 1" width="750">
 <img src="assets/table4.jpeg" alt="Table 1" width="750">
 
 
+## Qualitative Results
+
+<img src="assets/visualization.png" alt="Table 1" width="800">
 
 ### Team
 
