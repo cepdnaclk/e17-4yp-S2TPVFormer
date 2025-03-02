@@ -13,7 +13,7 @@ title: S2TPVFormer Landing Page
 \* Equal contribution, $\ddagger$ Project Co-supervisor, $\dagger$ Project Supervisor
 
 
-### [Link to the Paper](https://arxiv.org/abs/2401.13785)
+### [**Link to the Paper**](https://arxiv.org/abs/2401.13785)
 
 ## Abstract
 
