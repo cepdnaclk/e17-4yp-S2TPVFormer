@@ -26,10 +26,7 @@ This work introduces S2TPVFormer, a variant of [TPVFormer](https://github.com/wz
 
 ### Overview of our Contributions
 
-To summarize, this work contributes in the following ways,
-<!-- - We pioneer the use of TPV representation for embedding spatiotemporal information in 3D scenes within the domain of vision-centric SOP and the broader 3D perception literature.
-- We introduce a novel temporal fusion workflow for TPV representation, analyzing how CVHA facilitates the sharing of spatiotemporal information across the three planes.
-- The lower parameter model of our method achieves a significant **3.1%** improvement in mIoU for 3D SOP when evaluated on the [nuScenes](https://www.nuscenes.org/nuscenes/) validation dataset with [TPVFormer](https://github.com/wzzheng/tpvformer)’s sparse pseudo-voxel ground truth, compared to TPVFormer. -->
+To summarize, this work contributes in the following ways;
 
 - We introduce S2TPVFormer, featuring a novel temporal fusion workflow for TPV representation, and demonstrate how CVHA facilitates the sharing of spatiotemporal information across the three planes.
 - S2TPVFormer achieves significant improvements in the 3D SOP task on the nuScenes validation set, with a **+4.1%** mIOU gain over the baseline TPVFormer, highlighting that vision-based 3D SOP still has considerable potential for improvement.
@@ -42,18 +39,14 @@ To summarize, this work contributes in the following ways,
 
 ## Model Configurations
 
-<!-- ![](assets/table1.jpeg) -->
 <img src="assets/table1.jpeg" alt="Table 1" width="400">
 
 
 
 ## Results
 
-<!-- ![](assets/table2.jpeg) -->
 <img src="assets/table2.jpeg" alt="Table 1" width="750">
-<!-- ![](assets/table3.jpeg) -->
 <img src="assets/table3.jpeg" alt="Table 1" width="750">
-<!-- ![](assets/table4.jpeg) -->
 <img src="assets/table4.jpeg" alt="Table 1" width="750">
 
 
@@ -70,8 +63,6 @@ To summarize, this work contributes in the following ways,
 - {{ supervisor.name }} - [{{ supervisor.email }}](mailto:{{ supervisor.email }})
 {% endfor %}
 
-
-<!-- [![TPVFormer](https://img.youtube.com/vi/AQQQ3sVREaE/0.jpg)](https://www.youtube.com/watch?v=AQQQ3sVREaE) -->
 
 
 <!-- --- -->
