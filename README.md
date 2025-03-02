@@ -6,7 +6,7 @@ ___
 
 \* Equal contribution $\dagger$ Project Supervisor $\ddagger$ Project Co-supervisor
 
-![](docs/assets/visualization.gif
+![](docs/assets/visualization.gif)
 
 ## News
 - [25/02/2025]: 🏆 Our paper has received the best paper award at ML4AD Workshop 2025!
